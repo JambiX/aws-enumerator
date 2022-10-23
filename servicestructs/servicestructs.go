@@ -1266,6 +1266,8 @@ func GetServices() []servicemaster.ServiceMaster {
 			{"apicall": "GetDefaultPatchBaseline", "input_obj": &ssm.GetDefaultPatchBaselineInput{}},
 			{"apicall": "DescribeInventoryDeletions", "input_obj": &ssm.DescribeInventoryDeletionsInput{}},
 			{"apicall": "ListCommandInvocations", "input_obj": &ssm.ListCommandInvocationsInput{}},
+			{"apicall": "StartSession", "input_obj": &ssm.ListCommandInvocationsInput{}},
+			{"apicall": "SendCommand", "input_obj": &ssm.ListCommandInvocationsInput{}},
 		}}
 
 	storagegateway_svc := &servicemaster.ServiceMaster{
